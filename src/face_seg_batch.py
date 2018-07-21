@@ -53,9 +53,9 @@ for fname in fnames:
     im_ = np.array(im)
     im_[shade_idx] = BG_COLOR
 
-    fig.add_subplot(1, 2, 1)
-    plt.imshow(im)
-    fig.add_subplot(1, 2, 2)
+    #fig.add_subplot(1, 2, 1)
+    #plt.imshow(im)
+    #fig.add_subplot(1, 2, 2)
     plt.imshow(im_)
 
     # save plots
